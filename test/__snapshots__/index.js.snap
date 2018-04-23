@@ -10,3 +10,17 @@ const b = import(
 /* webpackPrefetch: true */
 'bbb');"
 `;
+
+exports[`babel-plugin-webpack-prefetch preserve-comment matches snapshot: preserve-comment 1`] = `
+"import ccc from 'ddd';
+import 'aaa';
+const a = import(
+/* webpackPrefetch: false */
+'aaa');
+const b = import(
+/* webpackPrefetch: true fdfasdfdasf */
+'bbb');
+const ddd = import(
+/* webpackPrefetch: true */
+'wow');"
+`;

@@ -14,9 +14,6 @@ module.exports = () => ({
     CallExpression(path) {
       if (path.node.callee.type === 'Import') {
         const args = path.get('arguments')
-        if (!args) {
-          return
-        }
         if (hasPrefetchComment(args[0].node)) return
         args[0].addComment('leading', ' webpackPrefetch: true ')
       }

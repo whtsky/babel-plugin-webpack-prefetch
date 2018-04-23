@@ -20,7 +20,12 @@ function transformInput(input, config) {
 
 describe('babel-plugin-webpack-prefetch', () => {
   testFolders.forEach(folderName => {
-    const config = require(join(FIXTURE_PATH, folderName, 'config.js'), 'utf8')
+    let config
+    try {
+      config = require(join(FIXTURE_PATH, folderName, 'config.js'))
+    } catch (e) {
+      // don't care
+    }
     const input = readFileSync(
       join(FIXTURE_PATH, folderName, 'input.js'),
       'utf8',
