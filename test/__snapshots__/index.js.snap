@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`babel-plugin-webpack-prefetch basic matches snapshot: basic 1`] = `
+"import ccc from 'ddd';
+import 'aaa';
+const a = import(
+/* webpackPrefetch: true */
+'aaa');
+const b = import(
+/* webpackPrefetch: true */
+'bbb');"
+`;
