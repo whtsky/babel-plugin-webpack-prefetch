@@ -6,16 +6,13 @@ node_js:
   - "9"
 
 install:
-  - travis_retry yarn install --ignore-engines
+  - travis_retry yarn install
 
 script:
   - yarn test
 
 after_success:
   - yarn codecov
-  - yarn global add travis-deploy-once
-  - travis-deploy-once "npm run semantic-release"
-
 cache:
   directories: ~/.npm
 notifications:

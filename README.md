@@ -6,6 +6,7 @@ Babel plugin for adding webpackPrefetch comment. Requires babel 7.
 [![npm](https://img.shields.io/npm/v/babel-plugin-webpack-prefetch.svg)](https://www.npmjs.com/package/babel-plugin-webpack-prefetch)
 [![Build Status](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch.svg?branch=master)](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch)
 [![codecov](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch/branch/master/graph/badge.svg)](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## Usage
 
