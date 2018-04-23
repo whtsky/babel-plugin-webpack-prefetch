@@ -1,5 +1,7 @@
 # babel-plugin-webpack-prefetch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/whtsky/babel-plugin-webpack-prefetch.svg)](https://greenkeeper.io/)
+
 Babel plugin for adding webpackPrefetch comment. Requires babel 7.
 
 [![license](https://img.shields.io/npm/l/babel-plugin-webpack-prefetch.svg)](https://github.com/whtsky/babel-plugin-webpack-prefetch/blob/master/LICENSE)
