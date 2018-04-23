@@ -1,16 +1,21 @@
 {
   "name": "babel-plugin-webpack-prefetch",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "babel plugin for adding webpackPrefetch comment",
   "main": "index.js",
   "scripts": {
     "precommit": "lint-staged",
     "prettier": "prettier --write '**/*.{js,json}'",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whtsky/babel-plugin-webpack-prefetch.git"
+    "url": "https://github.com/whtsky/babel-plugin-webpack-prefetch.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "keywords": ["babel", "babel-plugin", "webpack", "prefetch", "preload"],
   "author": "Wu Haotian <whtsky@gmail.com>",
@@ -28,6 +33,7 @@
     "husky": "^0.14.3",
     "jest": "^22.4.3",
     "lint-staged": "^7.0.4",
+    "prettier": "^1.12.1",
     "semantic-release": "^15.1.7",
     "standard": "^11.0.1"
   },
