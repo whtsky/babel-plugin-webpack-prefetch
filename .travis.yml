@@ -6,7 +6,7 @@ node_js:
   - "9"
 
 install:
-  - travis_retry yarn
+  - travis_retry yarn install --ignore-engines
 
 script:
   - yarn test
