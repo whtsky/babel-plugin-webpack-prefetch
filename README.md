@@ -2,6 +2,11 @@
 
 Babel plugin for adding webpackPrefetch comment. Requires babel 7.
 
+[![license](https://img.shields.io/npm/l/babel-plugin-webpack-prefetch.svg)](https://github.com/whtsky/babel-plugin-webpack-prefetch/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/babel-plugin-webpack-prefetch.svg)](https://www.npmjs.com/package/babel-plugin-webpack-prefetch)
+[![Build Status](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch.svg?branch=master)](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch)
+[![codecov](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch/branch/master/graph/badge.svg)](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch)
+
 ## Usage
 
 ```bash
