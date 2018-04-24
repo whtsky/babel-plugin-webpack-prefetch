@@ -1,6 +1,6 @@
 # babel-plugin-webpack-prefetch
 
-Babel plugin for adding webpackPrefetch comment. Requires babel 7.
+Babel plugin for adding webpackPrefetch comment.
 
 [![license](https://img.shields.io/npm/l/babel-plugin-webpack-prefetch.svg)](https://github.com/whtsky/babel-plugin-webpack-prefetch/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/babel-plugin-webpack-prefetch.svg)](https://www.npmjs.com/package/babel-plugin-webpack-prefetch)
@@ -14,9 +14,9 @@ Babel plugin for adding webpackPrefetch comment. Requires babel 7.
 yarn add -D babel-plugin-webpack-prefetch
 ```
 
-then add `babel-plugin-webpack-prefetch` to your `.babelrc.js`
+then add `babel-plugin-webpack-prefetch` to your `.babelrc`
 
-```diff .babelrc.js
+```diff .babelrc
 {
   "plugins": [
 +    "babel-plugin-webpack-prefetch"
@@ -38,3 +38,15 @@ const b = import(
 'bbb'
 )
 ```
+
+`babel-plugin-webpack-prefetch` will respect your comment :
+```diff a.js
+const a = import(
+// you added webpackPrefetch: false so babel-plugin-webpack-prefetch will not modify it
+/* webpackPrefetch: false */
+'aaa'
+)
+const b = import(
++ /* webpackPrefetch: true */
+'bbb'
+)

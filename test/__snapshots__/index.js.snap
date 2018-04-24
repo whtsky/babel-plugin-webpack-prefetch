@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`babel-plugin-webpack-prefetch basic matches snapshot: basic 1`] = `
+exports[`babel-plugin-webpack-prefetch basic matches snapshot for babel 6: basic 1`] = `
+"import ccc from 'ddd';
+import 'aaa';
+
+const a = import( /* webpackPrefetch: true */'aaa');
+const b = import( /* webpackPrefetch: true */'bbb');"
+`;
+
+exports[`babel-plugin-webpack-prefetch basic matches snapshot for babel 7: basic 1`] = `
 "import ccc from 'ddd';
 import 'aaa';
 const a = import(
@@ -11,7 +19,16 @@ const b = import(
 'bbb');"
 `;
 
-exports[`babel-plugin-webpack-prefetch preserve-comment matches snapshot: preserve-comment 1`] = `
+exports[`babel-plugin-webpack-prefetch preserve-comment matches snapshot for babel 6: preserve-comment 1`] = `
+"import ccc from 'ddd';
+import 'aaa';
+
+const a = import( /* webpackPrefetch: false */'aaa');
+const b = import( /* webpackPrefetch: true fdfasdfdasf */'bbb');
+const ddd = import( /* webpackPrefetch: true */'wow');"
+`;
+
+exports[`babel-plugin-webpack-prefetch preserve-comment matches snapshot for babel 7: preserve-comment 1`] = `
 "import ccc from 'ddd';
 import 'aaa';
 const a = import(
