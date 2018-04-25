@@ -4,6 +4,7 @@ node_js:
   - "7"
   - "8"
   - "9"
+  - "10"
 
 install:
   - travis_retry yarn install
@@ -13,7 +14,6 @@ script:
 
 after_success:
   - yarn codecov
-cache:
-  directories: ~/.npm
+cache: yarn
 notifications:
   email: false
