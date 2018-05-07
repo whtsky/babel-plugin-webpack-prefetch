@@ -7,6 +7,7 @@ Babel plugin for adding webpackPrefetch comment.
 [![Build Status](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch.svg?branch=master)](https://travis-ci.org/whtsky/babel-plugin-webpack-prefetch)
 [![codecov](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch/branch/master/graph/badge.svg)](https://codecov.io/gh/whtsky/babel-plugin-webpack-prefetch)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch?ref=badge_shield)
 
 ## Usage
 
@@ -50,3 +51,7 @@ const b = import(
 + /* webpackPrefetch: true */
 'bbb'
 )
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch?ref=badge_large)
