@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/whtsky/babel-plugin-webpack-prefetch#readme",
   "devDependencies": {
-    "@babel/core": "7.0.0-beta.47",
+    "@babel/core": "7.0.0-beta.48",
     "babel-core": "6.26.0",
     "codecov": "3.0.2",
     "husky": "0.14.3",
