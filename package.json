@@ -9,6 +9,9 @@
     "test": "jest --coverage",
     "release": "standard-version"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/whtsky/babel-plugin-webpack-prefetch.git"

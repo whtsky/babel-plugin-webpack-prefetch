@@ -51,7 +51,7 @@ const b = import(
 + /* webpackPrefetch: true */
 'bbb'
 )
-
+```
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwhtsky%2Fbabel-plugin-webpack-prefetch?ref=badge_large)
